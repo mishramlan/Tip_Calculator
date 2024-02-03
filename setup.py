@@ -9,9 +9,9 @@ setup(
     description='A simple tip calculator package',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/tip_calculator',
+    url='https://github.com/mishramlan/Tip_Calculator',
     install_requires=[
-        'flask>=2.0.0',  # Example dependency
+        'flask>=2.0.0', 'argparse==1.4.0'  # dependencies 
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
